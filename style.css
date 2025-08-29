@@ -1,0 +1,80 @@
+body {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+.container {
+  background-color: #1e1e1e;
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: 0 0 20px rgba(14, 246, 204, 0.2);
+}
+
+h2 {
+  color: #0ef6cc;
+  text-shadow: 0 0 4px #0ef6cc;
+}
+
+input, .form-control {
+  background-color: #1e1e1e;
+  border: 1px solid #0ef6cc;
+  color: #ffffff;
+}
+
+input::placeholder {
+  color: #aaa;
+}
+
+.btn-success {
+  background-color: #0ef6cc;
+  color: #121212;
+  border: none;
+}
+
+.btn-success:hover {
+  background-color: #0cd4b2;
+}
+
+.btn-danger {
+  background-color: #ff7edb;
+  border: none;
+  color: #121212;
+}
+
+.list-group-item {
+  background-color: #1e1e1e;
+  border: 1px solid #0ef6cc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 8px;
+}
+
+.delete-btn {
+  background-color: #ff7edb;
+  border: none;
+  color: #121212;
+  padding: 4px 8px;
+  border-radius: 4px;
+}
+
+.complete-btn {
+  background-color: #0ef6cc;
+  color: #121212;
+  border: none;
+  border-radius: 4px;
+  margin-right: 5px;
+  padding: 4px 8px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.login-container {
+  max-width: 400px;
+  margin-top: 100px;
+}
+
